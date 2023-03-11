@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ <!doctypehtml>
+
+<html>
+<!--
+    Implement UI Autocomplete using JQuery
+-->
+
+<head>
+<title>Termwork 8</title>
+
+<metaname="viewport"content="width=device-width, initial-scale=1">
+
+<linkhref="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"rel="stylesheet">
+<scriptsrc="https://code.jquery.com/jquery-1.10.2.js"></script>
+<scriptsrc="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+</head>
+
+<body>
+<divclass="ui-widget">
+<h2>UI Autocomplete Using jQuery</h2>
+<small>Type in the input box to get the autocomplete dropdown</small>
+<br/>
+<labelfor="tags">Tags: </label>
+
+<inputid="tags">
+</div>
+</body>
+
+<script>
+$(function(){
+constavailableTags = [
+"ActionScript",
+"AppleScript",
+"Asp",
+"Bash",
+"BASIC",
+"C",
+"C++",
+"C#",
+"Clojure",
+"COBOL",
+"ColdFusion",
+"Dart",
+"Erlang",
+"Fortran",
+"GoLang",
+"Groovy",
+"Haskell",
+"Java",
+"JavaScript",
+"Kotlin",
+"Lisp",
+"Lua",
+"Objective-C",
+"Perl",
+"PHP",
+"Python",
+"Ruby",
+"Scala",
+"Scheme",
+"Swift",
+"TypeScript",
+        ];
+$("#tags").autocomplete({
+source:availableTags
+});
+});
+</script>
+
+</html
+
+</body>
+
+</html>
